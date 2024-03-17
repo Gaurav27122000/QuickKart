@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="py-1 pt-5">
       <p className="text-center mt-1 fw-bold">
-        ShopIT, All Rights Reserved
+        QuickKart, All Rights Reserved
       </p>
     </footer>
   );
