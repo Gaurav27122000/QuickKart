@@ -22,9 +22,9 @@ app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 
-app.use("/api/v1",productRouter);
-app.use("/api/v1",userRouter);
-app.use('/api/v1',orderRouter);
+app.use("/api",productRouter);
+app.use("/api",userRouter);
+app.use('/api',orderRouter);
 
 app.use(errorMiddleware);
 
